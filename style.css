@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+  }
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.item {
+    flex: 0 0 48%; /* Занимает примерно половину ширины контейнера (учитывая отступы) */
+    margin-bottom: 20px;
+}
+
+  
+  .img {
+    width: 130px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(248, 168, 24);
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: background .2s linear;
+  }
+  
+  .btn:hover {
+    background: lightgreen;
+  }
+  
+  .usercard {
+    text-align: center;
+  }
+  
